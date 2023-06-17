@@ -87,4 +87,4 @@ Trong đó:
 Trong đó:
 
 - `prop`: là một chuỗi, quy định kiểu bố cục của thành phần. Chứa các class Vuetify để quy định kiểu bố cục.
-- `cols`: là một mảng các thành phần `col`. Mỗi thành phần của `cols` là các `control` được định nghĩa trong [Cấu trúc của một control](/docs/giao-dien-nguoi-dung/control).
+- `cols`: là một mảng các thành phần `col`. Mỗi thành phần của `cols` là các `control` được định nghĩa trong [Cấu trúc của một control](giao-dien-nguoi-dung/control.md).
