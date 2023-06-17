@@ -6,45 +6,141 @@ Data của một module được định nghĩa trong thuộc tính "**data"** c
 
 Ở giao diện UI Editor của module để khai báo một data, chọn tab <img src="../.gitbook/assets/Screen Shot 2023-02-06 at 14.58.52 (1).png" alt="" data-size="line"> sau đó chọn <img src="../.gitbook/assets/Screen Shot 2023-02-06 at 15.29.04.png" alt="" data-size="line">, bắt đầu khởi tạo data ở đây, hoặc có thể chọn tab <img src="../.gitbook/assets/Screen Shot 2023-02-06 at 15.32.34.png" alt="" data-size="line"> và định nghĩa một data ở thuộc tính `data: []`
 
-Dưới đây là ví dụ:
+## Cấu trúc
 
-```json
-// video
-```
+Một data được định nghĩa bởi một JSON Object, mỗi data sẽ có một tên duy nhất để phân biệt với các data khác. Tên của data được định nghĩa trong thuộc tính `name` của JSON Object.
 
-## Kiểu dữ liệu
-
-Dưới đây là các kiểu dữ liệu thường được sử dụng và cách định nghĩa chúng trong FUI.
-
-#### Chuỗi ký tự
-
-```json
+```JSON
 {
-    "value": "Hello World"
+    "data": [
+        {
+            "name": "data1",
+            "value": "value1"
+        }
+    ]
 }
 ```
 
-{% hint style="warning" %}
-Nếu giá trị trị chuỗi là một từ (không có khoảng trắng), ví dụ như: \
-`{`&#x20;
+## Các kiểu dữ liệu
 
-&#x20;   `"value": "Ten"`
+### String
 
-`}`\
-`thì FUI sẽ hiểu giá trị đó là một biến dữ liệu.`\
-\
-``Để xử lí trường hợp này, thêm dấu ` hoặc '' vào giá trị như sau:``\
-`{`&#x20;
+Kiểu dữ liệu `String` được định nghĩa bởi một chuỗi ký tự, được bao bởi dấu nháy gán tiền tố ` nếu chuỗi ký tự không chứa khoảng trắng.
 
-&#x20;   ``"value": "`Ten"``
+```JSON
+{
+    "data": [
+        {
+            "text": "`ABC",
+            "value": "`XYZ"
+        }
+    ]
+}
+```
 
-`}`
+### Number
 
-hoặc
+Kiểu dữ liệu `Number` được định nghĩa bởi một số, có thể là số nguyên hoặc số thực.
+```JSON
+{
+    "data": [
+        {
+            "data1": 2099
+        },
+        {
+            "value": "data1", // value = 2099 
+            "count": 1
+        }
+    ]
+}
+```
 
-`{`
+### Boolean
+Kiểu dữ liệu `Boolean` được định nghĩa bởi một giá trị `true` hoặc `false`.
+```JSON
+{
+    "data": [
+        {
+            "isChecked": true
+        },
+        {
+            "isFinished": "isChecked", // isFinished = true
+        }
+    ]
+}
+```
 
-&#x20;   `"value": "'Ten'"`
+### Array
+Kiểu dữ liệu `Array` được định nghĩa bởi một mảng các giá trị, mỗi giá trị có thể là một kiểu dữ liệu bất kỳ.
+```JSON
+{
+    "data": [
+        {
+            "list": [1, 2, 3]
+        },
+        {
+            "value": "list", // value = [1, 2, 3]
+            "count": "list.length" // count = 3
+        }
+    ]
+}
+```
 
-`}`
-{% endhint %}
+### Object
+Kiểu dữ liệu `Object` được định nghĩa bởi một JSON Object, mỗi thuộc tính của Object có thể là một kiểu dữ liệu bất kỳ.
+```JSON
+{
+    "data": [
+        {
+            "person": {
+                "name": "John",
+                "age": 30
+            }
+        },
+        {
+            "value": "person", // value = { "name": "John", "age": 30 }
+            "name": "person.name" // name = "John"
+        }
+    ]
+}
+```
+
+### Khối lệnh
+
+Kiểu dữ liệu khối lệnh được định nghĩa bởi một khối lệnh, mỗi khối lệnh được tạo ra để thực thi một hành động nào đó, có thể là gọi API, gọi một hàm, hoặc thực hiện một phép tính nào đó.
+
+Ví dụ khai báo một khối lệnh gọi API lấy danh sách topic:
+
+```JSON
+{
+    "data": [
+        {
+            "getListTopic": {
+                "API": "https://api.example.com/api/v1/topics",
+                "METHOD": "GET",
+                "OUT": "topicList",
+            }
+        }
+    ]
+}
+```
+
+Hoặc khởi tạo một hàm mở cửa sổ mới:
+
+```JSON
+{
+    "data": [
+        {
+            "openWindowA": {
+                "FUN": "openWindow",
+                "IN": {
+                    "id": "`windowA",
+                    "title": "`Cửa sổ A",
+                    "url": "`https://example.com/windowA",
+                    "width": 800
+                }
+            }
+        }
+    ]
+}
+```
