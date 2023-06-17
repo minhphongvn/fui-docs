@@ -2,7 +2,7 @@
 
 Mỗi khối lệnh được tạo ra để thực thi một hành động nào đó, có thể là gọi API, gọi một hàm, hoặc thực hiện một phép tính nào đó.
 
-### Gọi một hàm
+## Gọi một hàm
 
 Ví dụ bạn có một hàm sau:
 
@@ -31,9 +31,7 @@ Bạn có thể thấy cấu trúc gọi hàm ở ví dụ bên trên được c
 const result = add({a: 3, b: 5})
 ```
 
-### Lấy dữ liệu từ API&#x20;
-
-#### Cấu trúc
+## Lấy dữ liệu từ API
 
 Ví dụ bạn có một API để lấy data như sau:
 
@@ -54,6 +52,7 @@ Khi gọi API ở FUI chúng ta sẽ có cấu trúc như sau:
     "OUT": "result"
 }
 ```
+
 ### Callback
 
 Nếu bạn muốn gọi lại một hàm sau khi gọi API thành công thì bạn có thể sử dụng cấu trúc sau:
@@ -76,7 +75,7 @@ Nếu bạn muốn gọi lại một hàm sau khi gọi API thành công thì b�
 }
 ```
 
-### Câu lệnh điều kiện
+## Câu lệnh điều kiện
 
 Để thực hiện một câu lệnh điều kiện bạn có thể sử dụng cấu trúc sau:
 
@@ -92,7 +91,7 @@ Nếu bạn muốn gọi lại một hàm sau khi gọi API thành công thì b�
 }
 ```
 
-### Thông báo trước khi gọi một khối lệnh
+## Thông báo trước khi gọi một khối lệnh
 
 Nếu bạn muốn hiển thị thông báo cho người dùng trước khi gọi một khối lệnh thì bạn có thể sử dụng cấu trúc sau:
 
@@ -115,7 +114,7 @@ Nếu bạn muốn hiển thị thông báo cho người dùng trước khi gọ
 }
 ```
 
-### Thông báo nổi (Toast)
+## Thông báo nổi (Toast)
 
 Để hiển thị một thông báo nổi bạn có thể sử dụng cấu trúc sau:
 
@@ -126,7 +125,7 @@ Nếu bạn muốn hiển thị thông báo cho người dùng trước khi gọ
 ```
 
 Ví dụ sau khi gọi API thành công:
-    
+
 ```json
 {
     "API": "https://api.example.com/api/v1/addTodo",
@@ -146,7 +145,7 @@ Ví dụ sau khi gọi API thành công:
 }
 ```
 
-### Gọi một khối lệnh
+## Gọi một khối lệnh
 
 Để gọi một khối lệnh bạn có thể sử dụng cấu trúc sau:
 
@@ -156,7 +155,7 @@ Ví dụ sau khi gọi API thành công:
 }
 ```
 
-### Thực thi một đoạn mã Javascript
+## Thực thi một đoạn mã Javascript
 
 Để thực thi một đoạn mã Javascript bạn có thể sử dụng cấu trúc sau:
 
