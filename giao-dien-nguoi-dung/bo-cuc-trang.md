@@ -4,7 +4,6 @@
 
 Bố cục trang (Layout) là một thành phần cấu trúc của một trang FUI dùng để quy định bố cục giao diện của một trang. Bố cục trang được định nghĩa trong một file JSON với cấu trúc như sau:
 
-
 ```json
 {
     "controls": [
@@ -44,8 +43,6 @@ Bố cục trang (Layout) là một thành phần cấu trúc của một trang 
 
 ## 2. Cấu trúc
 
-### 2.1. Cấu trúc chung
-
 Bố cục trang được định nghĩa bởi một mảng các thành phần `controls`. Mỗi thành phần của `controls` có cấu trúc như sau:
 
 ```json
@@ -68,8 +65,8 @@ Bố cục trang được định nghĩa bởi một mảng các thành phần `
 
 Trong đó:
 
-- `prop`: là một chuỗi, quy định kiểu bố cục của thành phần. Chứa các class Vuetify để quy định kiểu bố cục.
-- `rows`: là một mảng các thành phần `row`. Mỗi thành phần của `rows` là có cấu trúc như sau:
+* `prop`: là một chuỗi, quy định kiểu bố cục của thành phần. Chứa các class Vuetify để quy định kiểu bố cục.
+* `rows`: là một mảng các thành phần `row`. Mỗi thành phần của `rows` là có cấu trúc như sau:
 
 ```json
 {
@@ -86,5 +83,5 @@ Trong đó:
 
 Trong đó:
 
-- `prop`: là một chuỗi, quy định kiểu bố cục của thành phần. Chứa các class Vuetify để quy định kiểu bố cục.
-- `cols`: là một mảng các thành phần `col`. Mỗi thành phần của `cols` là các `control` được định nghĩa.
+* `prop`: là một chuỗi, quy định kiểu bố cục của thành phần. Chứa các class Vuetify để quy định kiểu bố cục.
+* `cols`: là một mảng các thành phần `col`. Mỗi thành phần của `cols` là các `control` được định nghĩa.
