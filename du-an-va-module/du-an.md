@@ -52,20 +52,7 @@ Cấu hình của một project được định nghĩa có cấu trúc gồm nh
 }
 ```
 
-Diễn giải:
-
-* **ProjectName**: Tên mô tả cho dự án.
-* **title**: Tên tiêu đề cho dự án đó
-* **apiDomain**: Địa chỉ API của dự án.
-* **login**: Đường dẫn đến trang xác thực người dùng, nếu người dùng chưa xác thực, họ sẽ được chuyển đến trang đăng nhập.
-* **menubgcolor**: Màu của thanh menu.
-* **menucolor**: Màu chữ của thanh menu.
-* **logo**: Địa chỉ url của logo hiển thị trên thanh menu.
-* **userInfo**: API để lấy thông tin người dùng sau khi đã xác thực.
-* **menu: M**ảng chứa cấu trúc của menu trong dự án.
-  * **name**: Tên hiển thị trên thanh menu.
-  * **url**: Địa chỉ của menu.
-  * **submenu**: Chứa những mục con của menu.
+Diễn giải:&#x20;
 
 {% hint style="info" %}
 Để ẩn thanh menu `"menu": false`
@@ -75,14 +62,4 @@ Chỉ ẩn menu vẫn hiển thị thanh`"menu": []`
 Trang không cần đăng nhập `"login": false`
 {% endhint %}
 
-| Thuộc tính      | Kiểu dữ liệu    | Mô tả                                                                                                                                                                                                                                    |
-| --------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ProjectName** | String          | Tên mô tả của project.                                                                                                                                                                                                                   |
-| **title**       | String          | Tên tiều đề.                                                                                                                                                                                                                             |
-| **apiDomain**   | String          | Địa chỉ API.                                                                                                                                                                                                                             |
-| **login**       | String, Boolean | Trang xác thực người dùng của project, sẽ được chuyển đến nếu người dùng chưa xác thực.                                                                                                                                                  |
-| **menubgcolor** | String          | Màu của thanh menu.                                                                                                                                                                                                                      |
-| **menucolor**   | String          | Màu chữ của thanh menu.                                                                                                                                                                                                                  |
-| **logo**        | String          | Địa chỉ url của logo hiển thị trên thanh menu.                                                                                                                                                                                           |
-| **userInfo**    | String          | API để lấy thông tin người dùng sau khi đã xác thực.                                                                                                                                                                                     |
-| **menu**        | Array, Boolean  | <p>Mảng chứa cấu trúc menu của project.<br>Trong đó:<br>   - <strong>name</strong>: Tên hiển thị trên thanh menu.<br>   - <strong>url</strong>: Địa chỉ của menu.<br>   - <strong>submenu</strong>: Chứa những mục con của menu.<br></p> |
+<table><thead><tr><th width="229.33333333333334">Thuộc tính</th><th>Kiểu dữ liệu</th><th>Mô tả</th></tr></thead><tbody><tr><td><strong>ProjectName</strong></td><td>String</td><td>Tên mô tả của project.</td></tr><tr><td><strong>title</strong></td><td>String</td><td>Tên tiều đề.</td></tr><tr><td><strong>apiDomain</strong></td><td>String</td><td>Địa chỉ API.</td></tr><tr><td><strong>login</strong></td><td>String, Boolean</td><td>Trang xác thực người dùng của project, sẽ được chuyển đến nếu người dùng chưa xác thực.</td></tr><tr><td><strong>menubgcolor</strong></td><td>String</td><td>Màu của thanh menu.</td></tr><tr><td><strong>menucolor</strong></td><td>String</td><td>Màu chữ của thanh menu.</td></tr><tr><td><strong>logo</strong></td><td>String</td><td>Địa chỉ url của logo hiển thị trên thanh menu.</td></tr><tr><td><strong>userInfo</strong></td><td>String</td><td>API để lấy thông tin người dùng sau khi đã xác thực.</td></tr><tr><td><strong>menu</strong></td><td>Array, Boolean</td><td>Mảng chứa cấu trúc menu của project.<br>Trong đó:<br>   - <strong>name</strong>: Tên hiển thị trên thanh menu.<br>   - <strong>url</strong>: Địa chỉ của menu.<br>   - <strong>submenu</strong>: Chứa những mục con của menu.<br></td></tr></tbody></table>
