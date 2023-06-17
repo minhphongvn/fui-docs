@@ -30,11 +30,10 @@
 ## Các control chức năng
 
 * [Vuetify 2 Control](https://v2.vuetifyjs.com/en/components/alerts/)
-* [f-table](cac-control-chuc-nang/f-table/README.md)
-  * [Các thuộc tính](cac-control-chuc-nang/f-table/cac-thuoc-tinh.md)
-  * [Tiêu đề (header)](cac-control-chuc-nang/f-table/tieu-de-header.md)
-  * [Form (thêm, sửa, xoá)](cac-control-chuc-nang/f-table/form-them-sua-xoa.md)
-* [f-button](cac-control-chuc-nang/f-button.md)
+* [FUI Control](cac-control-chuc-nang/fui-control/README.md)
+  * [f-button](cac-control-chuc-nang/fui-control/f-button.md)
+  * [f-table](cac-control-chuc-nang/fui-control/f-table.md)
+  * [f-select](cac-control-chuc-nang/fui-control/f-select.md)
 * [Icons](cac-control-chuc-nang/icons.md)
 
 ## Các hàm chức năng

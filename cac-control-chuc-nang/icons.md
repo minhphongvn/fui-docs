@@ -2,7 +2,6 @@
 
 Icon của FUI sử dụng thư viện [Material Design Icons](https://pictogrammers.com/library/mdi/).
 
-
 ## 1. Hiển thị icon
 
 ```JSON
@@ -11,15 +10,17 @@ Icon của FUI sử dụng thư viện [Material Design Icons](https://pictogram
     "innerHTML": "mdi-account"
 }
 ```
+
 Icon được viết theo cấu trúc `mdi-<tên icon>`.
 
-Ví dụ: 
-- `mdi-account` là icon tài khoản.
-- `mdi-magnify` là icon kính lúp.
+Ví dụ:
 
-Tiền tố `mdi` là tên viết tắt của ***M***aterial ***D***esign ***I***cons.
- 
- Bạn có thể tìm kiếm icon tại [đây](https://pictogrammers.com/library/mdi/). Hãy sử dụng các đầu mục bên trái của trang để lọc icon theo chủ đề để có kết quả tìm kiếm tốt nhất.
+* `mdi-account` là icon tài khoản.
+* `mdi-magnify` là icon kính lúp.
+
+Tiền tố `mdi` là tên viết tắt của _**M**_aterial _**D**_esign _**I**_cons.
+
+Bạn có thể tìm kiếm icon tại [đây](https://pictogrammers.com/library/mdi/). Hãy sử dụng các đầu mục bên trái của trang để lọc icon theo chủ đề để có kết quả tìm kiếm tốt nhất.
 
 ## 2. Các trường hợp thường sử dụng icon
 
