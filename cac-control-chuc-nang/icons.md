@@ -26,6 +26,12 @@ Bạn có thể tìm kiếm icon tại [đây](https://pictogrammers.com/library
 
 ### Tạo một nút đăng nhập:
 
+<div align="left">
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-17 170434.png" alt="" width="170"><figcaption></figcaption></figure>
+
+</div>
+
 ```json
 {
     "el": "v-btn",
@@ -50,6 +56,12 @@ Bạn có thể tìm kiếm icon tại [đây](https://pictogrammers.com/library
 ```
 
 ### Thêm icon vào một text field:
+
+<div align="center" data-full-width="false">
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-17 165957.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ```json
 {
