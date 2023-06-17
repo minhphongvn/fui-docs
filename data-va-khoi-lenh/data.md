@@ -10,7 +10,7 @@ Data của một module được định nghĩa trong thuộc tính "**data"** c
 
 Một data được định nghĩa bởi một JSON Object, mỗi data sẽ có một tên duy nhất để phân biệt với các data khác. Tên của data được định nghĩa trong thuộc tính `name` của JSON Object.
 
-```JSON
+```json
 {
     "data": [
         {
@@ -25,9 +25,9 @@ Một data được định nghĩa bởi một JSON Object, mỗi data sẽ có 
 
 ### String
 
-Kiểu dữ liệu `String` được định nghĩa bởi một chuỗi ký tự, được bao bởi dấu nháy gán tiền tố ` nếu chuỗi ký tự không chứa khoảng trắng.
+Kiểu dữ liệu `String` được định nghĩa bởi một chuỗi ký tự, được bao bởi dấu nháy gán tiền tố \` nếu chuỗi ký tự không chứa khoảng trắng.
 
-```JSON
+```json
 {
     "data": [
         {
@@ -41,7 +41,8 @@ Kiểu dữ liệu `String` được định nghĩa bởi một chuỗi ký tự
 ### Number
 
 Kiểu dữ liệu `Number` được định nghĩa bởi một số, có thể là số nguyên hoặc số thực.
-```JSON
+
+```json
 {
     "data": [
         {
@@ -56,8 +57,10 @@ Kiểu dữ liệu `Number` được định nghĩa bởi một số, có thể 
 ```
 
 ### Boolean
+
 Kiểu dữ liệu `Boolean` được định nghĩa bởi một giá trị `true` hoặc `false`.
-```JSON
+
+```json
 {
     "data": [
         {
@@ -71,8 +74,10 @@ Kiểu dữ liệu `Boolean` được định nghĩa bởi một giá trị `tru
 ```
 
 ### Array
+
 Kiểu dữ liệu `Array` được định nghĩa bởi một mảng các giá trị, mỗi giá trị có thể là một kiểu dữ liệu bất kỳ.
-```JSON
+
+```json
 {
     "data": [
         {
@@ -87,8 +92,10 @@ Kiểu dữ liệu `Array` được định nghĩa bởi một mảng các giá 
 ```
 
 ### Object
+
 Kiểu dữ liệu `Object` được định nghĩa bởi một JSON Object, mỗi thuộc tính của Object có thể là một kiểu dữ liệu bất kỳ.
-```JSON
+
+```json
 {
     "data": [
         {
@@ -111,7 +118,7 @@ Kiểu dữ liệu khối lệnh được định nghĩa bởi một khối lệ
 
 Ví dụ khai báo một khối lệnh gọi API lấy danh sách topic:
 
-```JSON
+```json
 {
     "data": [
         {
@@ -127,7 +134,7 @@ Ví dụ khai báo một khối lệnh gọi API lấy danh sách topic:
 
 Hoặc khởi tạo một hàm mở cửa sổ mới:
 
-```JSON
+```json
 {
     "data": [
         {

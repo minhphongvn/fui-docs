@@ -4,7 +4,7 @@ Icon của FUI sử dụng thư viện [Material Design Icons](https://pictogram
 
 ## 1. Hiển thị icon
 
-```JSON
+```json
 {
     "el": "v-icon",
     "innerHTML": "mdi-account"
@@ -26,7 +26,7 @@ Bạn có thể tìm kiếm icon tại [đây](https://pictogrammers.com/library
 
 ### Tạo một nút đăng nhập:
 
-```JSON
+```json
 {
     "el": "v-btn",
     "attr": {
@@ -51,7 +51,7 @@ Bạn có thể tìm kiếm icon tại [đây](https://pictogrammers.com/library
 
 ### Thêm icon vào một text field:
 
-```JSON
+```json
 {
     "el": "v-text-field",
     "attr": {

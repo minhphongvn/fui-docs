@@ -6,7 +6,7 @@
 
 ## Sử dụng
 
-```JSON
+```json
 {
     "el": "f-button",
     "attr": {
@@ -29,5 +29,5 @@
 
 Vì kế thừa nên các thuộc tính của `f-button` cũng tương tự như [`v-btn`](https://v2.vuetifyjs.com/en/api/v-btn) của Vuetify. Tuy nhiên, `f-button` có thêm một số thuộc tính sau:
 
-- `label` (string): Nội dung của button.
-- `action` (object): Hành động khi click vào button. Để thực thi một khối lệnh bất kì.
+* `label` (string): Nội dung của button.
+* `action` (object): Hành động khi click vào button. Để thực thi một khối lệnh bất kì.
