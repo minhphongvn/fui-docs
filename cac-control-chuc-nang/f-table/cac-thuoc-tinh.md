@@ -1,0 +1,2 @@
+# Các thuộc tính
+
