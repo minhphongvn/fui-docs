@@ -32,7 +32,9 @@
 * [Vuetify 2 Control](https://v2.vuetifyjs.com/en/components/alerts/)
 * [FUI Control](cac-control-chuc-nang/fui-control/README.md)
   * [f-button](cac-control-chuc-nang/fui-control/f-button.md)
-  * [f-table](cac-control-chuc-nang/fui-control/f-table.md)
+  * [f-table](cac-control-chuc-nang/fui-control/f-table/README.md)
+    * [Tạo bảng](cac-control-chuc-nang/fui-control/f-table/tao-bang.md)
+    * [Table control](cac-control-chuc-nang/fui-control/f-table/table-control.md)
   * [f-select](cac-control-chuc-nang/fui-control/f-select.md)
 * [Icons](cac-control-chuc-nang/icons.md)
 
