@@ -2,10 +2,6 @@
 
 Bạn muốn xây dựng một ứng dụng web hoặc web form một cách nhanh chóng và dễ dàng, nhưng lại không có kiến thức lập trình? FUI chính là công cụ mà bạn đang tìm kiếm!
 
-<figure><img src=".gitbook/assets/Screen Shot 2023-04-20 at 14.25.58.png" alt=""><figcaption><p><strong>Thiết kế với FUI</strong></p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/Screen Shot 2023-04-20 at 14.28.53.png" alt=""><figcaption><p><strong>Giao diện sau khi thiết kế</strong></p></figcaption></figure>
-
 **FUI (Fast User Interface)** là một nền tảng low-code, dựa trên nền tảng Vuejs, sử dụng phương pháp kéo thả hoặc định nghĩa các cấu trúc JSON để xây dựng giao diện người dùng và cấu hình nhanh để triển khai hệ thống quản lý.
 
 FUI cung cấp một giao diện đơn giản và dễ sử dụng, cho phép các nhà thiết kế, marketer hay bất kỳ ai muốn tạo ra các giao diện người dùng và web form đẹp và chuyên nghiệp mà không cần nhiều kiến thức về lập trình, vẫn có thể tạo ra các ứng dụng web một cách dễ dàng và nhanh chóng.
