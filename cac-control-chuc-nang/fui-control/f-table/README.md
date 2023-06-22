@@ -14,8 +14,8 @@
 
 Ví dụ chúng ta có một dữ liệu như sau:
 
-```JSON
-{
+```json
+{so
   "DanhSachSV": [
     {
         "MSSV": "123000123",
@@ -122,7 +122,7 @@ Ví dụ chúng ta có một dữ liệu như sau:
 
 Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 
-```JSON
+```json
 {
   "el": "f-table",
   "col": {},
