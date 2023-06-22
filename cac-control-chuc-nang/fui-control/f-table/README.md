@@ -10,6 +10,118 @@
 
 ## Tạo bảng
 
+Để tạo một bảng như hình trên, chúng ta sẽ tạo theo cấu trúc dưới đây
+
+Ví dụ chúng ta có một dữ liệu như sau:
+
+```JSON
+{
+  "DanhSachSV": [
+    {
+        "MSSV": "123000123",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000124",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000125",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000126",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000127",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000128",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000129",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000130",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000131",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000132",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    },
+    {
+        "MSSV": "123000133",
+        "Ten": "Feng",
+        "Ho": "Nguyễn Minh",
+        "NgaySinh": "01/02/2003",
+        "Lop": "23CT113",
+        "GioiTinh": 0,
+        "NoHocPhi": false
+    }
+  ]
+}
+```
+
+Chúng ta sẽ tạo bảng theo cấu trúc như sau:
+
 ```JSON
 {
   "el": "f-table",
@@ -23,7 +135,6 @@
     ":show-select": true,
     ":fixed-cols": 2,
     ":mobile-breakpoint": 600,
-    "v-model": "DSSVDaChon",
     ":items": "DanhSachSV",
     "item-key": "MSSV",
     ":update-form": [
