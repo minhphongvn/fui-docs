@@ -2,119 +2,119 @@
 
 ## Giới thiệu
 
-`f-table` là một component dùng để hiển thị dữ liệu dạng bảng.
+`f-table` là một component dùng để hiển thị dữ liệu dạng bảng. Component này được xây dựng dựa trên [`v-data-table`](https://v2.vuetifyjs.com/en/components/data-tables). Tuy nhiên, `f-table` được tuỳ biến để có thêm một số tính năng hay hơn như:
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 09.59.54.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 10.00.21.png" alt=""><figcaption></figcaption></figure>
+- Tạo control tuỳ biến cho từng cột một cách đơn giản nhất (định nghĩa ngay trên headers). Ví dụ: tạo control để nhập, sửa, thay đổi trạng thái trực tiếp trên bảng, tạo control để thực thi một lệnh bất kì trên dòng dữ liệu tương ứng,...
+- Cho phép xuất dữ liệu dạng bảng ra file Excel.
+- Tạo giao diện thêm mới, sửa, xóa dữ liệu trực tiếp ngay trên bảng.
+- Tự động tạo các control phục vụ cho việc tìm kiếm, lọc dữ liệu.
+- Thêm tiêu đề bảng nhanh chóng.
 
 ## Tạo bảng
 
-Để tạo một bảng như hình trên, chúng ta sẽ tạo theo cấu trúc dưới đây
-
-Ví dụ chúng ta có một dữ liệu như sau:
+Ví dụ chúng ta có một dữ liệu danh sách sinh viên như sau:
 
 ```json
-{so
+{
   "DanhSachSV": [
     {
-        "MSSV": "123000123",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000123",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000124",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000124",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000125",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000125",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000126",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000126",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000127",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000127",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000128",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000128",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000129",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000129",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000130",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000130",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000131",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000131",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000132",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000132",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     },
     {
-        "MSSV": "123000133",
-        "Ten": "Feng",
-        "Ho": "Nguyễn Minh",
-        "NgaySinh": "01/02/2003",
-        "Lop": "23CT113",
-        "GioiTinh": 0,
-        "NoHocPhi": false
+      "MSSV": "123000133",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
     }
   ]
 }
@@ -249,6 +249,12 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
   }
 }
 ```
+
+Đây là giao diện của bảng:
+
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 09.59.54.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 10.00.21.png" alt=""><figcaption></figcaption></figure>
 
 ## Các thuộc tính
 
