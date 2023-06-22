@@ -4,16 +4,17 @@
 
 `f-table` là một component dùng để hiển thị dữ liệu dạng bảng. Component này được xây dựng dựa trên [`v-data-table`](https://v2.vuetifyjs.com/en/components/data-tables). Tuy nhiên, `f-table` được tuỳ biến để có thêm một số tính năng phục vụ cho việc xây dựng và quản lý đơn giản hơn như:
 
-- Tạo control tuỳ biến cho từng cột một cách đơn giản nhất (định nghĩa ngay trên headers). Ví dụ: tạo control để nhập, sửa, thay đổi trạng thái trực tiếp trên bảng, tạo control để thực thi một lệnh bất kì trên dòng dữ liệu tương ứng,...
-- Cho phép xuất dữ liệu dạng bảng ra file Excel.
-- Tạo giao diện thêm mới, sửa, xóa dữ liệu trực tiếp ngay trên bảng.
-- Tự động tạo các control phục vụ cho việc tìm kiếm, lọc dữ liệu.
-- Thêm tiêu đề bảng nhanh chóng.
+* Tạo control tuỳ biến cho từng cột một cách đơn giản nhất (định nghĩa ngay trên headers). Ví dụ: tạo control để nhập, sửa, thay đổi trạng thái trực tiếp trên bảng, tạo control để thực thi một lệnh bất kì trên dòng dữ liệu tương ứng,...
+* Cho phép xuất dữ liệu dạng bảng ra file Excel.
+* Tạo giao diện thêm mới, sửa, xóa dữ liệu trực tiếp ngay trên bảng.
+* Tự động tạo các control phục vụ cho việc tìm kiếm, lọc dữ liệu.
+* Thêm tiêu đề bảng nhanh chóng.
 
 ## Tạo bảng
 
 Ví dụ chúng ta có một dữ liệu danh sách sinh viên như sau:
 
+{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```json
 {
   "DanhSachSV": [
@@ -119,9 +120,11 @@ Ví dụ chúng ta có một dữ liệu danh sách sinh viên như sau:
   ]
 }
 ```
+{% endcode %}
 
 Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
   "el": "f-table",
@@ -249,6 +252,7 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
   }
 }
 ```
+{% endcode %}
 
 Đây là giao diện của bảng sau khi tạo:
 
