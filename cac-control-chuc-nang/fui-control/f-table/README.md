@@ -16,7 +16,7 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 
 {% tabs %}
 {% tab title="Control" %}
-{% code lineNumbers="true" %}
+{% code lineNumbers="true" fullWidth="false" %}
 ```json
 {
   "el": "f-table",
