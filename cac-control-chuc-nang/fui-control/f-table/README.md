@@ -15,6 +15,12 @@
 Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 
 {% tabs %}
+{% tab title="Preview" %}
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 09.59.54.png" alt=""><figcaption><p>Giao diện bảng</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 10.00.21.png" alt=""><figcaption><p>Form, thêm, sửa trên bảng</p></figcaption></figure>
+{% endtab %}
+
 {% tab title="Control" %}
 {% code lineNumbers="true" fullWidth="false" %}
 ```json
@@ -257,12 +263,6 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 {% endcode %}
 {% endtab %}
 {% endtabs %}
-
-Đây là giao diện của bảng sau khi tạo:
-
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 09.59.54.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 10.00.21.png" alt=""><figcaption></figcaption></figure>
 
 ## Các thuộc tính
 
