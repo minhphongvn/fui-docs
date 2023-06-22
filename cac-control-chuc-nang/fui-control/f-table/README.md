@@ -12,119 +12,11 @@
 
 ## Tạo bảng
 
-Ví dụ chúng ta có một dữ liệu danh sách sinh viên như sau:
-
-{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
-```json
-{
-  "DanhSachSV": [
-    {
-      "MSSV": "123000123",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000124",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000125",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000126",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000127",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000128",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000129",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000130",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000131",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000132",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    },
-    {
-      "MSSV": "123000133",
-      "Ten": "Feng",
-      "Ho": "Nguyễn Minh",
-      "NgaySinh": "01/02/2003",
-      "Lop": "23CT113",
-      "GioiTinh": 0,
-      "NoHocPhi": false
-    }
-  ]
-}
-```
-{% endcode %}
-
 Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% tabs %}
+{% tab title="Control" %}
+{% code lineNumbers="true" %}
 ```json
 {
   "el": "f-table",
@@ -253,6 +145,118 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 }
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="Data" %}
+{% code lineNumbers="true" %}
+```json
+{
+  "DanhSachSV": [
+    {
+      "MSSV": "123000123",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000124",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000125",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000126",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000127",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000128",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000129",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000130",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000131",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000132",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    },
+    {
+      "MSSV": "123000133",
+      "Ten": "Feng",
+      "Ho": "Nguyễn Minh",
+      "NgaySinh": "01/02/2003",
+      "Lop": "23CT113",
+      "GioiTinh": 0,
+      "NoHocPhi": false
+    }
+  ]
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 Đây là giao diện của bảng sau khi tạo:
 
