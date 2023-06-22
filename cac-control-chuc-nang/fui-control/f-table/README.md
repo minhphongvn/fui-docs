@@ -250,7 +250,7 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 }
 ```
 
-Đây là giao diện của bảng:
+Đây là giao diện của bảng sau khi tạo:
 
 <figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 09.59.54.png" alt=""><figcaption></figcaption></figure>
 
