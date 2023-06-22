@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-`f-table` là một component dùng để hiển thị dữ liệu dạng bảng. Component này được xây dựng dựa trên [`v-data-table`](https://v2.vuetifyjs.com/en/components/data-tables). Tuy nhiên, `f-table` được tuỳ biến để có thêm một số tính năng hay hơn như:
+`f-table` là một component dùng để hiển thị dữ liệu dạng bảng. Component này được xây dựng dựa trên [`v-data-table`](https://v2.vuetifyjs.com/en/components/data-tables). Tuy nhiên, `f-table` được tuỳ biến để có thêm một số tính năng phục vụ cho việc xây dựng và quản lý đơn giản hơn như:
 
 - Tạo control tuỳ biến cho từng cột một cách đơn giản nhất (định nghĩa ngay trên headers). Ví dụ: tạo control để nhập, sửa, thay đổi trạng thái trực tiếp trên bảng, tạo control để thực thi một lệnh bất kì trên dòng dữ liệu tương ứng,...
 - Cho phép xuất dữ liệu dạng bảng ra file Excel.
