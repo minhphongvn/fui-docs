@@ -4,6 +4,12 @@
 
 `f-table` là một component dùng để hiển thị dữ liệu dạng bảng.
 
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 09.59.54.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-06-22 at 10.00.21.png" alt=""><figcaption></figcaption></figure>
+
+## Tạo bảng
+
 ```JSON
 {
   "el": "f-table",
@@ -148,6 +154,6 @@ Vì kế thừa nên các thuộc tính của `f-table` cũng tương tự như 
 | update-form    | Array        | `[]`     | Cấu hình form cập nhật dữ liệu      |
 | update-api     | Object       | `{}`     | Cấu hình API cập nhật dữ liệu       |
 | fixed-cols     | Number       | `0`      | Số cột cố định                      |
-| fixed-header   | Boolean      | `false`  | Cố định header                      |
+| fixed-header   | Boolean      | `true`   | Cố định header                      |
 | height         | Number       | `0`      | Chiều cao của bảng                  |
 | items-per-page | Number       | `5`      | Số dòng trên một trang              |
