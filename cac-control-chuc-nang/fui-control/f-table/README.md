@@ -157,6 +157,20 @@ Chúng ta sẽ tạo bảng theo cấu trúc như sau:
 {% code lineNumbers="true" %}
 ```json
 {
+  "Genders": [
+    {
+      "text": "Nam",
+      "value": 0
+    },
+    {
+      "text": "Nữ",
+      "value": 1
+    },
+    {
+      "text": "LGBT",
+      "value": 2
+    }
+  ],
   "DanhSachSV": [
     {
       "MSSV": "123000123",
