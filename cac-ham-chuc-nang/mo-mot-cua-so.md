@@ -10,7 +10,10 @@
         "title": "Tiêu đề cửa sổ",
         "width": 800,
         "height": 600,
-        "url": "`https://example.com"
+        "url": "`https://example.com",
+        "onclose": {
+            "MESS": "Đã đóng cửa sổ"
+        }
     }
 }
 ```
@@ -26,3 +29,5 @@
 `height` (number): Chiều cao của cửa sổ.
 
 `url` (string): Đường dẫn của cửa sổ.
+
+`onclose`(object): Khối lệnh được chỉ thị thực thi khi đóng cửa sổ.

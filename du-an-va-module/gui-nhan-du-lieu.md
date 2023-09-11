@@ -8,4 +8,7 @@
 https://fui.vn/ex/demo-module?val1=123&val2=abc&...
 ```
 
-Như ví dụ trên một biến data tên là val1 mang giá trị 123 và val2 mang giá trị "abc" được khởi tạo có thể sử dụng trong module mà bạn trỏ đến, như ví dụ trên thì module **"demo-module"** sẽ nhận được dữ liệu như trên và có thể sử dụng trong việc hiển thị, thực thi, truy vấn dữ liệu khác trong module.
+Như ví dụ trên một biến data tên là **val1** mang giá trị 123 và **val2** mang giá trị "abc" được khởi tạo có thể sử dụng trong module mà bạn trỏ đến, như ví dụ trên thì module **"demo-module"** sẽ tự động khởi tạo 2 biến tên là **val1** và **val2** mang giá trị tương ứng.&#x20;
+
+\
+<mark style="color:red;">**\*Lưu ý**</mark>: Giá trị nhận trừ query params đều là chuỗi ký tự (string)

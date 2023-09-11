@@ -2,7 +2,7 @@
 
 ## 1. Giới thiệu
 
-Watch là một thành phần cấu trúc của một trang FUI dùng để theo dõi sự thay đổi của một biến, một thuộc tính của một biến, một phần tử của một mảng, hoặc một thuộc tính của một phần tử trong một mảng.
+Watch là một thành phần cấu trúc của một trang FUI dùng để theo dõi sự thay đổi của một biến, một thuộc tính của một biến, một phần tử của một mảng, hoặc một thuộc tính của một phần tử trong một mảng để thực hiện một lệnh cụ thể (ví dụ: gán lại giá trị, gọi hàm, gọi API,...)
 
 ## 2. Cấu trúc
 

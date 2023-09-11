@@ -15,7 +15,7 @@ Một dự án FUI chứa nhiều module (trang) thực hiện một nhiệm v�
 3. Tuỳ chỉnh các giá trị phù hợp của các thuộc tính theo diễn giải phía dưới.
 
 {% hint style="warning" %}
-Một cấu hình của project sẽ được áp dụng cho tất cả các module của nó. Ví dụ: thanh danh mục menu, địa chỉ API,.... sẽ được dùng chung với tất cả các module của nó.
+Cấu hình của project sẽ được áp dụng cho tất cả các module của nó. Ví dụ: thanh danh mục menu, địa chỉ API,.... sẽ được dùng chung với tất cả các module của nó.
 {% endhint %}
 
 Cấu hình của một project được định nghĩa có cấu trúc gồm những thuộc tính sau đây:
